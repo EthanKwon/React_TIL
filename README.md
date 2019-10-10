@@ -1,8 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+=======
+# React_Project01 : 할 일 리스트 만들기
+>>>>>>> 45ef146f4717aaefa8c93978d4a4125ee5a652c3
 
-## Available Scripts
+### 참고서적 : 리액트를 다루는 기술
 
+<<<<<<< HEAD
 In the project directory, you can run:
 
 ### `yarn start`
@@ -72,3 +77,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 리액트 첫번째 프로젝트 : 할 일 리스트 만들기
 >>>>>>> cabf1fc46b753f4f6fb91241432be12ae733e23d
+=======
+>>>>>>> 45ef146f4717aaefa8c93978d4a4125ee5a652c3
