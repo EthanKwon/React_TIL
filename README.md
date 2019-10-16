@@ -15,3 +15,11 @@
  - Duck 파일로 구조 변경
  - redux-actions 기능 추가
  - 프로젝트에 redux 
+ 
+### redux-starter-kit (19.10.16)
+
+ - redux 미들웨어를 연습하기 위한 프로젝트
+ - loggerMiddleware를 이용해 로깅 해보기
+ - redux-thunk를 이용해 비동기 작업 처리해 보기
+ - redux-promise-middleware를 이용해 비동기 작업 처리해 보기 (오류 발생)
+ - redux-pender를 이용해 비동기 작업 처리해 보기 (적용중)
