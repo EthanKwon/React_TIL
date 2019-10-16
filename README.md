@@ -35,7 +35,7 @@
 ---
 ## 개념 익히기 
 
-### SPA(Single Page Application)
+### :page_facing_up: SPA(Single Page Application)
 
 - 말 그대로 페이지가 하나인 어플리케이션을 뜻함.
 - 뷰 렌더링을 유저의 웹 브라우저가 담당하게 하고, 애플리케이션을 우선 웹 브라우저에 로드시킨 후 필요한 데이터만 전달받아 보여 준다.
