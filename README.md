@@ -23,3 +23,9 @@
  - redux-thunk를 이용해 비동기 작업 처리해 보기
  - redux-promise-middleware를 이용해 비동기 작업 처리해 보기 (오류 발생)
  - redux-pender를 이용해 비동기 작업 처리해 보기 (적용중)
+ 
+### redux-router-tutorial (19. 10. 16)
+ 
+ - SPA(Single Page Application) 프로젝트
+ - redux-router 라이브러리 사용
+ - 
