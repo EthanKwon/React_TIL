@@ -33,7 +33,17 @@
 
  - Repository 리셋 (개정판으로 복습 및 새로운 내용 공부)
  
+### React Component & Props (19. 11. 05)
 
+- Component에 대한 공부
+- 함수형 컴포넌트와 클래스형 컴포넌트의 차이 알기
+- 모듈 불러오기(import)와 모듈 내보내기(export) 사용해 보기
+- prop에 대한 내용 공부
+- 부모 컴포넌트에서 props 값 설정 하기
+- props의 기본 값 설정하기
+- component태그 사이에 내용을 보여주는 children 사용해보기
+- 비구조화 할당 문법을 통해 props 내부 값 사용해보기
+- propsTypes를 이용해 props 검증하기 (type검사,필수 type 지정)
 
 ---
 ## 개념 익히기 
