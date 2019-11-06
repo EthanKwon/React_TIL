@@ -47,7 +47,7 @@
 - propsTypes를 이용해 props 검증하기 (type검사,필수 type 지정)
 
 
-### React State & EventHandling (19. 11. 06)
+### React State & EventHandling & ref (19. 11. 06)
 
 1. **state에 대한 공부**
 - 클래스형 컴포넌트에서의 State 사용법 (setState)
@@ -62,6 +62,13 @@
 - 메서드와 this를 바인드 해야하는 이유를 알고, Property Initializer Syntax를 통한 메서드 작성법 알기
 - 함수형 컴포넌트에서 Event 사용법
 - 여러개의 input을 관리하기 위해 form 객체 사용해 보기
+
+3. **ref 사용법에 대한 공부**
+- 클래스형 컴포넌트에서 ref 사용법
+- 직접 DOM에 접근해야 하는 경우에만 사용
+- ref를 사용하지 않고 쓸 수 있으면, 되도록 쓰지 않고 사용할 것
+- ref를 통한 데이터 전송은 React 규칙에 어긋나며, 복잡하게 꼬일경우 유지보수가 어려워 지기 때문에 되도록 지양한다.
+
 
 ---
 ## 개념 익히기 
