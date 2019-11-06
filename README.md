@@ -3,6 +3,7 @@
 리액트 사용법을 공부하기 위해 사용하는 repository
 
 ### :books: 참고 서적 : 리액트를 다루는 기술 ( 19. 11. 01일 부터 개정판으로 공부)
+### 공부 기간 : 19. 10. 14 ~ 공부 중
 
 
 ---
@@ -35,10 +36,11 @@
  
 ### React Component & Props (19. 11. 05)
 
-- Component에 대한 공부
+1. **Component에 대한 공부**
 - 함수형 컴포넌트와 클래스형 컴포넌트의 차이 알기
 - 모듈 불러오기(import)와 모듈 내보내기(export) 사용해 보기
-- prop에 대한 내용 공부
+
+2. **prop에 대한 내용 공부**
 - 부모 컴포넌트에서 props 값 설정 하기
 - props의 기본 값 설정하기
 - component태그 사이에 내용을 보여주는 children 사용해보기
@@ -46,14 +48,21 @@
 - propsTypes를 이용해 props 검증하기 (type검사,필수 type 지정)
 
 
-### React State (19. 11. 06)
+### React State & EventHandling (19. 11. 06)
 
-- state에 대한 공부
+1. state에 대한 공부
 - 클래스형 컴포넌트에서의 State 사용법 (setState)
 - 객체 대신 함수 인자를 전달 해보기
 - setState를 통한 끝난 후, 특정 작업 처리
 - 함수형 컴포넌트에서의 State 사용법 (useState)
 - 배열의 비구조화 할당법 사용해보기
+
+2. 이벤트 핸들링에 대한 공부
+- 기본적인 이벤트 사용법 알아보기
+- 클래스형 컴포넌트에서 Event 사용법
+- 메서드와 this를 바인드 해야하는 이유를 알고, Property Initializer Syntax를 통한 메서드 작성법 알기
+- 함수형 컴포넌트에서 Event 사용법
+- 여러개의 input을 관리하기 위해 form 객체 사용해 보기
 
 ---
 ## 개념 익히기 
