@@ -1,10 +1,9 @@
-# REACT_TIL 
+# :blue_book: REACT_TIL 
 
-리액트 사용법을 공부하기 위해 사용하는 repository
+리액트를 공부하기 위해 사용하는 repository
 
 ### :books: 참고 서적 : 리액트를 다루는 기술 ( 19. 11. 01일 부터 개정판으로 공부)
-### 공부 기간 : 19. 10. 14 ~ 공부 중
-
+### :date: 공부 기간 : 19. 10. 14 ~ 공부 중
 
 ---
 ### redux-counter (19.10.14)
@@ -50,14 +49,14 @@
 
 ### React State & EventHandling (19. 11. 06)
 
-1. state에 대한 공부
+1. **state에 대한 공부**
 - 클래스형 컴포넌트에서의 State 사용법 (setState)
 - 객체 대신 함수 인자를 전달 해보기
 - setState를 통한 끝난 후, 특정 작업 처리
 - 함수형 컴포넌트에서의 State 사용법 (useState)
 - 배열의 비구조화 할당법 사용해보기
 
-2. 이벤트 핸들링에 대한 공부
+2. **이벤트 핸들링에 대한 공부**
 - 기본적인 이벤트 사용법 알아보기
 - 클래스형 컴포넌트에서 Event 사용법
 - 메서드와 this를 바인드 해야하는 이유를 알고, Property Initializer Syntax를 통한 메서드 작성법 알기
