@@ -45,6 +45,16 @@
 - 비구조화 할당 문법을 통해 props 내부 값 사용해보기
 - propsTypes를 이용해 props 검증하기 (type검사,필수 type 지정)
 
+
+### React State (19. 11. 06)
+
+- state에 대한 공부
+- 클래스형 컴포넌트에서의 State 사용법 (setState)
+- 객체 대신 함수 인자를 전달 해보기
+- setState를 통한 끝난 후, 특정 작업 처리
+- 함수형 컴포넌트에서의 State 사용법 (useState)
+- 배열의 비구조화 할당법 사용해보기
+
 ---
 ## 개념 익히기 
 
