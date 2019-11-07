@@ -70,14 +70,36 @@
 - ref를 통한 데이터 전송은 React 규칙에 어긋나며, 복잡하게 꼬일경우 유지보수가 어려워 지기 때문에 되도록 지양한다.
 
 
-### React Iteration (19. 11. 07)
-1. **Iteration(반복)에 대한 공부
+### React Iteration & LifeCycle (19. 11. 07)
+1. **Iteration(반복)에 대한 공부**
 - javascript의 map() 메서드를 이용한 데이터 배열을 컴포넌트 배열로 변환하기
 - 컴포넌트 배열 사용시 key를 사용해야하는 이유
 - React의 성능을 최적화 하기 위해 불변성 유지 방법 알기
 - concat() 메서드를 통해 새 항목을 포함한 새로운 컴포넌트 배열 생성하기
 - filter() 메서드를 통한 기존 항목을 제외한 새로운 컴포넌트 배열 생성하기
 
+2. **LifeCycle에 대한 공부**
+- LifeCycle 전체 흐름 파악하기
+- Mount, Update, UnMount의 특징을 알고 각각 사용되는 메서드 알아보기
+```
+- Mount(DOM 생성후, 웹 브라우저 상으로 나타낼때)
+ 1. constructor(생성자)
+ 2. getDerivedStateFromProps(Props -> State)
+ 3. render(랜더링 하는 메서드, 필수)
+ 4. componentDidMount(컴포넌트가 웹 브라우저 상에 나타난 이후 호출)
+ 
+- Update (DOM에 변화가 생겼을 때)
+ 1. getDerivedStateFromProps(Props -> state)
+ 2. shouldComponentUpdate(true면 리렌더링, false면 작업 중지)
+ 3. render (렌더링 하는 메서드, 필수)
+ 4. getSnapshotBeforeUpdate (컴포넌트 변화를 DOM에 반영하기 바로 직전 작업)
+ 5. componentDidUpdate(컴포넌트 업데이트 작업 이후 호출)
+ 
+ - UnMount(컴포넌트를 DOM에서 제거할 때)
+ 1. componentWillUnmount (컴포넌트가 웹 브라우저 상에 사라지기 전에 호출)
+ 
+```
+- 에러 발생시, componentDidCatch() 메서드를 이용해 에러 페이지 나타내기
 
 ---
 ## 개념 익히기 
