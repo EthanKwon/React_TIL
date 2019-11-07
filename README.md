@@ -28,7 +28,10 @@
  
  - SPA(Single Page Application) 프로젝트
  - redux-router 라이브러리 사용법 익히기
- 
+
+---
+(이후부터 개정판으로 공부) 
+
 ### Repository reset (19. 11. 01)
 
  - Repository 리셋 (개정판으로 복습 및 새로운 내용 공부)
