@@ -4,7 +4,7 @@ import Voca from './component/Voca'
 function App() {
   return (
     <div>
-      <h1>영단어 시험</h1>
+      <h1>영단어 시험 - 데모 버젼</h1>
       <br/>
       <Voca eng = 'area' kor = '분야'/>
       <Voca eng = 'be due to' kor = '~할 예정이다'/>
