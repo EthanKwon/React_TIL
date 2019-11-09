@@ -73,7 +73,7 @@
 - ref를 통한 데이터 전송은 React 규칙에 어긋나며, 복잡하게 꼬일경우 유지보수가 어려워 지기 때문에 되도록 지양한다.
 
 
-### React Iteration & LifeCycle (19. 11. 07)
+### React Iteration & LifeCycle & Hooks (19. 11. 07)
 1. **Iteration(반복)에 대한 공부**
 - javascript의 map() 메서드를 이용한 데이터 배열을 컴포넌트 배열로 변환하기
 - 컴포넌트 배열 사용시 key를 사용해야하는 이유
@@ -104,11 +104,20 @@
 ```
 - 에러 발생시, componentDidCatch() 메서드를 이용해 에러 페이지 나타내기
 
-3. **Hook에 대한 공부 (useState, useEffect)**
+3. **Hooks에 대한 공부 (useState, useEffect)**
 
 - 함수형 컴포넌트 사용에 있어 다양한 작업을 도와주는 Hook
 - useState를 통해 함수형 컴포넌트에서도 상태 관리를 할 수 있게 되었다.
 - useEffect를 통해 컴포넌트 렌더링시 다양한 작업을 할 수 있게 되었다.
+
+### React Hooks (19. 11. 09)
+
+1. **Hooks에 대한 공부(useReducer, useMemo)**
+
+- useReducer를 통해 useState와 useEffect의 기능을 더 효과적으로 작업할수 있게 되었다.
+- useReducer는 추후 더 자세하게 공부를 해봐야 할 필요성을 느꼈다.
+- useMemo를 통해 함수를 조건에 따라 실행 할 수 있도록 설정 할 수 있게 되었다.
+
 ---
 ## 개념 익히기 
 
