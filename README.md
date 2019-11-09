@@ -112,11 +112,14 @@
 
 ### React Hooks (19. 11. 09)
 
-1. **Hooks에 대한 공부(useReducer, useMemo)**
+1. **Hooks에 대한 공부(useReducer, useMemo, useCallback, useRef, 커스텀 Hooks)**
 
 - useReducer를 통해 useState와 useEffect의 기능을 더 효과적으로 작업할수 있게 되었다.
 - useReducer는 추후 더 자세하게 공부를 해봐야 할 필요성을 느꼈다.
-- useMemo를 통해 함수를 조건에 따라 실행 할 수 있도록 설정 할 수 있게 되었다.
+- useMemo를 통해 숫자, 문자열, 객체값의 재소용성을 높일 수 있게 되었다.
+- useCallback을 통해 함수의 재사용성을 높일 수 있게 되었다.
+- useRef를 통해 함수형 컴포넌트에서 ref를 사용할 수 있게 되었으며, 로컬변수를 활용할 수 있게 되었다.
+- 로직을 새로 만들고 Hook을 작성하여 개인적인 Hook을 이용할 수 있게 되었다.
 
 ---
 ## 개념 익히기 
