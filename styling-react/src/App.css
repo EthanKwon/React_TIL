@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+/* .App안에 들어있는 .logo */
+.App .logo {
+  height: 40vmin;
+}
+
+/* .App안에 들어있는 header 클래스 */
+.App header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App a {
+  color: #09d3ac;
+}
