@@ -121,6 +121,16 @@
 - useRef를 통해 함수형 컴포넌트에서 ref를 사용할 수 있게 되었으며, 로컬변수를 활용할 수 있게 되었다.
 - 로직을 새로 만들고 Hook을 작성하여 개인적인 Hook을 이용할 수 있게 되었다.
 
+
+### React CSS Styling (19. 11. 10)
+
+2. **CSS Styling에 대한 공부(Sass, CSS Module, styled-component)
+
+- Sass를 이용하여 CSS의 복잡한 작업을 쉽게 하고, 스타일 코드의 재활용성, 가독성을 높여 줄 수 있게 되었다.
+- CSS Module을 통해 CSS의 className을 좀 더 쉽게 다룰수 있게 되었다.
+- styled-component를 통해 CSS파일을 생성하지 않고도 js파일에 스타일을 적용할 수 있게 되었다.
+
+
 ---
 ## 개념 익히기 
 
