@@ -124,13 +124,20 @@
 
 ### React CSS Styling (19. 11. 10)
 
-2. **CSS Styling에 대한 공부(Sass, CSS Module, styled-component)
+1. **CSS Styling에 대한 공부(Sass, CSS Module, styled-component)
 
 - Sass를 이용하여 CSS의 복잡한 작업을 쉽게 하고, 스타일 코드의 재활용성, 가독성을 높여 줄 수 있게 되었다.
 - CSS Module을 통해 CSS의 className을 좀 더 쉽게 다룰수 있게 되었다.
 - styled-component를 통해 CSS파일을 생성하지 않고도 js파일에 스타일을 적용할 수 있게 되었다.
 
+### React TodoList Project (19. 11. 11)
 
+1. **Todo List 어플 만들기**
+
+- 개발 순서 : 프로젝트 생성 -> UI 구성 -> 기능 구현
+- 4개의 컴포넌트로 구성, Sass를 통한 스타일 지정
+- 일정의 생성, 삭제, 수정 구현
+- useCallback을 통한 함수 생성
 ---
 ## 개념 익히기 
 
