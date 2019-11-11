@@ -130,7 +130,7 @@
 - CSS Module을 통해 CSS의 className을 좀 더 쉽게 다룰수 있게 되었다.
 - styled-component를 통해 CSS파일을 생성하지 않고도 js파일에 스타일을 적용할 수 있게 되었다.
 
-### React TodoList Project (19. 11. 11)
+### React TodoList Project & Optimization (19. 11. 11)
 
 1. **Todo List 어플 만들기**
 
@@ -138,6 +138,17 @@
 - 4개의 컴포넌트로 구성, Sass를 통한 스타일 지정
 - 일정의 생성, 삭제, 수정 구현
 - useCallback을 통한 함수 생성
+
+2. **컴포넌트 성능 최적화 하기**
+
+- 느려지는 원인 : 렌더링시 불필요한 렌더링이 포함되기 때문에
+- React.memo를 통한 리렌더링 효율을 높여 렌더링 시간을 단축 (변화가 있는 컴포넌트만 리렌더링)
+- 함수의 리렌더링을 방지하는 방법 : useState의 함수형 업데이트 기능 사용 & useReducer 사용
+- 리스트 관련 컴포넌트 작성시, 리스트와 아이템 두가지 모두 최적화를 해야함
+- react-virtualized를 통한 렌더링 최적화 (동작 방식 이해 필요)
+
+
+
 ---
 ## 개념 익히기 
 
