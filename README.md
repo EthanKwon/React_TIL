@@ -147,7 +147,7 @@
 - 리스트 관련 컴포넌트 작성시, 리스트와 아이템 두가지 모두 최적화를 해야함
 - react-virtualized를 통한 렌더링 최적화 (동작 방식 이해 필요)
 
-### React Immutability (19. 11. 12)
+### React Immutability & React-Router (19. 11. 12)
 
 1. **immer에 대한 공부**
 
@@ -158,7 +158,22 @@
 - **immer**를 통해 직접적인 값을 변경해도 불변성을 유지해준다. 
 - 그러나, **immer**로 인해 무조건적으로 코드가 간결해 지지 않기 때문에 필요한 경우에만 사용한다.
 
+2. **React-Router에 대한 공부**
+
+- SPA를 위해 사용 (매번 새로운 화면을 보여주면 성능에 문제가 생기기 때문에 SPA 이용)
+- **react-router-dom** 라이브러리를 이용해 Route 기능 사용
+- Route 기능을 통해 새로고침을 하지 않고도 주소변경과 관련 정보조회를 가능하게 되었다.
+- Link 기능을 통해 <a>태그로 인한 페이지 새로고침 현상을 방지 할 수 있게 되었다.
+- URL parameter 와 URL query를 이용해 유동적인 값 전달을 할 수 있게 되었다.
+- 서브 라우터를 통해 Route 기능을 제약 받지 않고 쓸 수 있게 되었다.
+
+
+
+
+
 ---
+
+
 ## 개념 익히기 
 
 ### :page_facing_up: SPA(Single Page Application)
