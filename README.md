@@ -195,6 +195,12 @@
 - NavLink를 이용해 Category별 다른 스타일 적용해보기
 - (추가) usePromise라는 Hook을 만들어 적용하기 
 
+2. **Context API에 대한 공부**
+
+- 전역 상태 관리를 위해 유용한 기능을 제공
+- 최상위 컴포넌트를 거치지 않더라도 상태 관리 가능
+- Consumer를 통해 props 조회
+- Provider를 통해 props 변경 
 
 ---
 
