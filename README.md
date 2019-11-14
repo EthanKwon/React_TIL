@@ -200,7 +200,7 @@
 - 전역 상태 관리를 위해 유용한 기능을 제공
 - 최상위 컴포넌트를 거치지 않더라도 상태 관리 가능
 - Consumer를 통해 props 조회
-- Provider를 통해 props 변경 
+- Provider를 통해 props 변경 가능
 
 ---
 
