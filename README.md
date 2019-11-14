@@ -187,7 +187,13 @@
 - styled-components를 통해 UI를 꾸밈
 - useEffect()를 통해 API로 가져온 데이터를 언제 불러올지 결정함
 
+### React Export API (19. 11. 14)
 
+1. **외부 API를 이용한 프로젝트에서 React-Router 사용하기**
+
+- React-Router를 이용해 Category를 URL parameter로 구분 지어 이용해보기
+- NavLink를 이용해 Category별 다른 스타일 적용해보기
+- (추가) usePromise라는 Hook을 만들어 적용하기 
 
 
 ---
