@@ -210,6 +210,7 @@
 - Redux에 대한 용어 정리 
 - Redux용어에 대한 개념을 이해 하기 위해 exercise 파일을 통한 학습
 - 두개의 Redux모듈을 생성하고, root 모듈로 합쳐 Provider 컴포넌트를 통해 리덕스 적용해보기
+- presentation Component와 Container를 구분지어 Counter 기능 구현해보기
 
 ---
 
