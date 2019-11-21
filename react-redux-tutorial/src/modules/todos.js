@@ -61,14 +61,14 @@ function todos(state=initialState, action) {
         case TOGGLE:
             return {
                 ...state,
-                todos:state.map(todo=>
+                todos:state.todos.map(todo=>
                     todo.id===action.id ? {...todo, done:!todo.done} : todo
                 )
             };
         case REMOVE:
             return {
                 ...state,
-                todos:state.filter(todo=>todo.id !== action.id)
+                todos:state.todos.filter(todo=>todo.id !== action.id)
             };
         default:
             return state;
