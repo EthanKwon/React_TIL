@@ -205,15 +205,55 @@
 
 ### React Redux (19. 11. 19)
 
-1. **Redux에 대한 공부**
+1. **Redux에 대한 공부(인터넷 강의로 맛보기)**
 
 - Redux에 대한 용어 정리 
 - Redux용어에 대한 개념을 이해 하기 위해 exercise 파일을 통한 학습
 - 두개의 Redux모듈을 생성하고, root 모듈로 합쳐 Provider 컴포넌트를 통해 리덕스 적용해보기
 - presentation Component와 Container를 구분지어 Counter 기능 구현해보기
 
----
+### React Redux (19. 11. 20)
 
+1. **Redux에 대한 공부(Redux 기초)**
+
+- Redux 기초 용어 정리
+- React 없이 Redux 구현 해보기
+- Redux의 3가지 규칙 알아보기
+
+```
+ Redux의 3가지 규칙
+
+1. 단일 스토어   |   2. 읽기 전용상태   |   3. 순수한 함수
+```
+
+### React Redux (19. 11. 21)
+
+1. **Redux에 대한 공부 (Counter, Todo 기능 구현)**
+
+- Redux를 이용해 Counter, Todo 기능 구현
+- 프레젠테이션 컴포넌트와 컨테이너 컴포넌트로 나누어 구현
+```
+ 프레젠테이션 컴포넌트 : UI와 같이 외부로 보여지는 부분
+ 컨테이너 컴포넌트 : Redux와 연동 되어있는 부분
+```
+- Ducks 패턴을 통한 Redux 모듈 구현
+```
+ Ducks 패턴 : 액션 타입, 액션 생성 함수, 리듀서 함수를 하나의 파일로 몰아서 작성하는 방법
+```
+- 루트 리듀서를 만들어 두 모듈을 합쳐 하나의 Store로 생성할 수 있도록 만듦
+- 만들어진 Store를 Provider 컴포넌트를 통해 프로젝트에 적용
+- 컨테이너 컴포넌트를 connect 방식으로 구현해보기
+- redux-actions를 통해 쉽게 모듈을 작성하고 가독성 높이기
+- immer를 통한 불변성을 유지한채 상태 관리하기
+- useSelector, useDispatch (Hooks)를 이용해 컨테이너 컴포넌트 구현하기
+
+```
+ connect 함수와 Hooks 함수 사용의 차이
+ - connect : 부모 컴포넌트가 리렌더링 될 때 해당 컨테이너 컴포넌트의 Props가 바뀌지 않았다면, 리렌더링이 자동으로 방지되어 성능 최적화
+ - Hooks : 최적화 작업을 따로 React.memo를 통해 사용해야 함 (불필요한 경우는 최적화 작업을 안해 주어도 됨)
+```
+
+---
 
 ## 개념 익히기 
 
